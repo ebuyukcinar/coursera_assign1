@@ -41,3 +41,39 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_array(int * ptr, int count){
+
+}
+
+
+unsigned char find_median(int * ptr, int count){
+
+}
+
+unsigned char find_mean(int * ptr, int count){
+
+}
+
+unsigned char find_maximum(int * ptr, int count){
+
+}
+
+unsigned char find_minimum(int * ptr, int count){
+
+}
+
+unsigned int* sort_array(int * ptr, int count){
+
+}
+
+void print_statistics(int * ptr, int count){
+
+}
+
+
+
+
+
+
+

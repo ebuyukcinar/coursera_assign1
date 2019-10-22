@@ -23,8 +23,108 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
+
+/******************************************************************************
+ * Function: print_array
+ * Description:
+ *     This function takes in an array and given length and prints its contents
+ *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     -
+ *****************************************************************************/
+void print_array(int * ptr, int count);
+
+/******************************************************************************
+ * Function: find_median
+ * Description:
+ *     This function takes in an array and given length and returns the median value
+ *	(rounded down to the nearest integer) of the array its contents
+ *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     Median value of array
+ *****************************************************************************/
+unsigned char find_median(int * ptr, int count);
+
+/******************************************************************************
+ * Function: find_mean
+ * Description:
+ *     This function takes in an array and given length and returns the mean value
+ *	(rounded down to the nearest integer)of the array
+ *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     Mean value of array
+ *****************************************************************************/
+unsigned char find_mean(int * ptr, int count);
+
+
+/******************************************************************************
+ * Function: find_maximum
+ * Description:
+ *     This function takes in an array and given length and returns the maximum value
+ *	seen in the array
+ *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     Maximum value found in the array
+ *****************************************************************************/
+unsigned char find_maximum(int * ptr, int count);
+
+/******************************************************************************
+ * Function: find_minimum
+ * Description:
+ *     This function takes in an array and given length and returns the minimum value
+ *	seen in the array
+ *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     minimum value found in the array
+ *****************************************************************************/
+unsigned char find_minimum(int * ptr, int count);
+
+/******************************************************************************
+ * Function: sort_array
+ * Description:
+ *     This function takes in an array and given length and sorts the array from
+ *	 largest to smallest, starting at the zeroth element
+ *	 *     
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     -
+ *****************************************************************************/
+unsigned int* sort_array(int * ptr, int count);
+
+/******************************************************************************
+ * Function: print_statistics
+ * Description:
+ *     This function prints various statistics including minimum, maximum, mean
+ *	and median for a given array and length. This function calls "find_minimum"
+ *	, "find_maximum", "find_mean" and "find_median".     
+ *
+ * Parameters:
+ *     int * ptr: Pointer to the array
+ *     int count: length of the array
+ * Return: 
+ *     -
+ *****************************************************************************/
+void print_statistics(int * ptr, int count);
+
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief p
  *
  * <Add Extended Description Here>
  *
