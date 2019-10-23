@@ -35,7 +35,7 @@
  * Return: 
  *     -
  *****************************************************************************/
-void print_array(unsigned char * ptr, int count);
+void print_array(unsigned char *ptr, unsigned int count);
 
 /******************************************************************************
  * Function: find_median
@@ -49,7 +49,7 @@ void print_array(unsigned char * ptr, int count);
  * Return: 
  *     nothing (prints using printf
  *****************************************************************************/
-unsigned char find_median(unsigned char * ptr, int count);
+unsigned char find_median(unsigned char *ptr, int count);
 
 /******************************************************************************
  * Function: find_mean
@@ -64,7 +64,7 @@ unsigned char find_median(unsigned char * ptr, int count);
  * Return: 
  *     Mean value of array
  *****************************************************************************/
-unsigned char find_mean(unsigned char * ptr, int count);
+unsigned char find_mean(unsigned char *ptr, int count);
 
 
 /******************************************************************************
@@ -79,7 +79,7 @@ unsigned char find_mean(unsigned char * ptr, int count);
  * Return: 
  *     Maximum value found in the array
  *****************************************************************************/
-unsigned char find_maximum(unsigned char * ptr, int count);
+unsigned char find_maximum(unsigned char *ptr, int count);
 
 /******************************************************************************
  * Function: find_minimum
@@ -93,7 +93,7 @@ unsigned char find_maximum(unsigned char * ptr, int count);
  * Return: 
  *     minimum value found in the array
  *****************************************************************************/
-unsigned char find_minimum(unsigned char * ptr, int count);
+unsigned char find_minimum(unsigned char *ptr, int count);
 
 /******************************************************************************
  * Function: sort_array
@@ -107,7 +107,7 @@ unsigned char find_minimum(unsigned char * ptr, int count);
  * Return: 
  *     -
  *****************************************************************************/
-void sort_array(unsigned char * ptr, int count);
+void sort_array(unsigned char *ptr, int count);
 
 /******************************************************************************
  * Function: print_statistics
@@ -122,7 +122,7 @@ void sort_array(unsigned char * ptr, int count);
  * Return: 
  *     none, overrides array at provided memory address
  *****************************************************************************/
-void print_statistics(unsigned char * ptr, int count);
+void print_statistics(unsigned char *ptr, int count);
 
 /**
  * @brief p

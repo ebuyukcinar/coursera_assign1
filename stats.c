@@ -37,41 +37,54 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   unsigned char *testArrayPtr = &test[0];
+  //unsigned char *testArrayPtr = test;	 //this is equiv to above line
+
+
 
   /* Statistics and Printing Functions Go Here */
+  print_array(testArrayPtr, SIZE);
+
+
 
 }
 
 /* Add other Implementation File Code Here */
 
-void print_array(unsigned char * ptr, int count){
+void print_array(unsigned char *ptr, unsigned int count){
 
+  // unsigned char *tempPtr = &ptr[0];
+   
+   for(int i=0; i<count; ++i){
+     printf("%u ",  ptr[i]);
+   
+    
+   }
 
 	
 }
 
 
-unsigned char find_median(unsigned char * ptr, int count){
+unsigned char find_median(unsigned char *ptr, int count){
 
 }
 
-unsigned char find_mean(unsigned char * ptr, int count){
+unsigned char find_mean(unsigned char *ptr, int count){
 
 }
 
-unsigned char find_maximum(unsigned char * ptr, int count){
+unsigned char find_maximum(unsigned char *ptr, int count){
 
 }
 
-unsigned char find_minimum(unsigned char * ptr, int count){
+unsigned char find_minimum(unsigned char *ptr, int count){
 
 }
 
-void sort_array(unsigned char * ptr, int count){
+void sort_array(unsigned char *ptr, int count){
 
 }
 
-void print_statistics(unsigned char * ptr, int count){
+void print_statistics(unsigned char *ptr, int count){
 
 }
 
