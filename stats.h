@@ -30,12 +30,12 @@
  *     This function takes in an array and given length and prints its contents
  *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
  *     -
  *****************************************************************************/
-void print_array(int * ptr, int count);
+void print_array(unsigned char * ptr, int count);
 
 /******************************************************************************
  * Function: find_median
@@ -44,26 +44,27 @@ void print_array(int * ptr, int count);
  *	(rounded down to the nearest integer) of the array its contents
  *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
- *     Median value of array
+ *     nothing (prints using printf
  *****************************************************************************/
-unsigned char find_median(int * ptr, int count);
+unsigned char find_median(unsigned char * ptr, int count);
 
 /******************************************************************************
  * Function: find_mean
  * Description:
- *     This function takes in an array and given length and returns the mean value
- *	(rounded down to the nearest integer)of the array
+ *     This function takes in an array and number of items in the array 
+ *	(given length) and returns the mean value rounded down to the nearest 
+ *	integer of the array
  *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
  *     Mean value of array
  *****************************************************************************/
-unsigned char find_mean(int * ptr, int count);
+unsigned char find_mean(unsigned char * ptr, int count);
 
 
 /******************************************************************************
@@ -73,12 +74,12 @@ unsigned char find_mean(int * ptr, int count);
  *	seen in the array
  *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
  *     Maximum value found in the array
  *****************************************************************************/
-unsigned char find_maximum(int * ptr, int count);
+unsigned char find_maximum(unsigned char * ptr, int count);
 
 /******************************************************************************
  * Function: find_minimum
@@ -87,12 +88,12 @@ unsigned char find_maximum(int * ptr, int count);
  *	seen in the array
  *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
  *     minimum value found in the array
  *****************************************************************************/
-unsigned char find_minimum(int * ptr, int count);
+unsigned char find_minimum(unsigned char * ptr, int count);
 
 /******************************************************************************
  * Function: sort_array
@@ -101,12 +102,12 @@ unsigned char find_minimum(int * ptr, int count);
  *	 largest to smallest, starting at the zeroth element
  *	 *     
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
  *     -
  *****************************************************************************/
-unsigned int* sort_array(int * ptr, int count);
+void sort_array(unsigned char * ptr, int count);
 
 /******************************************************************************
  * Function: print_statistics
@@ -116,12 +117,12 @@ unsigned int* sort_array(int * ptr, int count);
  *	, "find_maximum", "find_mean" and "find_median".     
  *
  * Parameters:
- *     int * ptr: Pointer to the array
+ *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
- *     -
+ *     none, overrides array at provided memory address
  *****************************************************************************/
-void print_statistics(int * ptr, int count);
+void print_statistics(unsigned char * ptr, int count);
 
 /**
  * @brief p

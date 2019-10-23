@@ -36,38 +36,42 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+  unsigned char *testArrayPtr = &test[0];
+
   /* Statistics and Printing Functions Go Here */
 
 }
 
 /* Add other Implementation File Code Here */
 
-void print_array(int * ptr, int count){
+void print_array(unsigned char * ptr, int count){
 
+
+	
 }
 
 
-unsigned char find_median(int * ptr, int count){
+unsigned char find_median(unsigned char * ptr, int count){
 
 }
 
-unsigned char find_mean(int * ptr, int count){
+unsigned char find_mean(unsigned char * ptr, int count){
 
 }
 
-unsigned char find_maximum(int * ptr, int count){
+unsigned char find_maximum(unsigned char * ptr, int count){
 
 }
 
-unsigned char find_minimum(int * ptr, int count){
+unsigned char find_minimum(unsigned char * ptr, int count){
 
 }
 
-unsigned int* sort_array(int * ptr, int count){
+void sort_array(unsigned char * ptr, int count){
 
 }
 
-void print_statistics(int * ptr, int count){
+void print_statistics(unsigned char * ptr, int count){
 
 }
 
