@@ -52,17 +52,16 @@ void print_array(unsigned char *ptr, unsigned int count);
 unsigned char find_median(unsigned char *ptr, int count);
 
 /******************************************************************************
- * Function: find_mean
+ * Function: find_median
  * Description:
- *     This function takes in an array and number of items in the array 
- *	(given length) and returns the mean value rounded down to the nearest 
- *	integer of the array
+ *     This function takes in a (sorted) array and number of items in the array 
+ *	(given length) and finds the median
  *     
  * Parameters:
- *     unsigned char * ptr: Pointer to the array
- *     int count: length of the array
+ *     unsigned char * ptr: Pointer to the sorted array
+ *     int count: length of the sorted array
  * Return: 
- *     Mean value of array
+ *     median value of the sorted array
  *****************************************************************************/
 unsigned char find_mean(unsigned char *ptr, int count);
 
