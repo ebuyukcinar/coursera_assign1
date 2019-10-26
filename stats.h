@@ -41,7 +41,7 @@ void print_array(unsigned char *ptr, unsigned int count);
  * Function: find_median
  * Description:
  *     This function takes in an array and given length and returns the median value
- *	(rounded down to the nearest integer) of the array its contents
+ *	(rounded down to the nearest integer) of the array
  *     
  * Parameters:
  *     unsigned char * ptr: Pointer to the array
@@ -55,7 +55,7 @@ unsigned char find_median(unsigned char *ptr, int count);
  * Function: find_median
  * Description:
  *     This function takes in a (sorted) array and number of items in the array 
- *	(given length) and finds the median
+ *     and finds the median
  *     
  * Parameters:
  *     unsigned char * ptr: Pointer to the sorted array
@@ -98,13 +98,13 @@ unsigned char find_minimum(unsigned char *ptr, int count);
  * Function: sort_array
  * Description:
  *     This function takes in an array and given length and sorts the array from
- *	 largest to smallest, starting at the zeroth element
- *	 *     
+ *	 largest to smallest
+ *	     
  * Parameters:
  *     unsigned char * ptr: Pointer to the array
  *     int count: length of the array
  * Return: 
- *     -
+ *     - (array is already sorted)
  *****************************************************************************/
 void sort_array(unsigned char *ptr, int count);
 
@@ -112,8 +112,8 @@ void sort_array(unsigned char *ptr, int count);
  * Function: print_statistics
  * Description:
  *     This function prints various statistics including minimum, maximum, mean
- *	and median for a given array and length. This function calls "find_minimum"
- *	, "find_maximum", "find_mean" and "find_median".     
+ *	and median for a given array and length. This function calls "print_array"
+ *     "find_minimum", "find_maximum", "find_mean" and "find_median".     
  *
  * Parameters:
  *     unsigned char * ptr: Pointer to the array
@@ -123,18 +123,6 @@ void sort_array(unsigned char *ptr, int count);
  *****************************************************************************/
 void print_statistics(unsigned char *ptr, int count);
 
-/**
- * @brief p
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
 
 
 #endif /* __STATS_H__ */

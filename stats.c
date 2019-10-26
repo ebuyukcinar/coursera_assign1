@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief prints and calculates various statistics on an array
  *
- * <Add Extended Description Here>
+ * Modified version of skeleton code created by Alex Fosdick
+ * for the purposes of completing coursera assignment 1
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Add Erol Buyukcinar>
+ * @date <2019 10 26 >
  *
  */
 
